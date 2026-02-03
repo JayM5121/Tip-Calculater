@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/5e36b559b9.js" crossorigin="anonymous"></script>
+  <title>Tip Calculater</title>
+</head>
+<body>
+  <div class="tip-calculater-container pb-5">
+    <img src="https://res.cloudinary.com/dpa6zeka7/image/upload/v1770113297/13151_lpminl.jpg" 
+        class="image">
+    <h1 class="heading">Tip Calculater</h1>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 pb-3">
+            <p class="description">BILL AMOUNT</p>
+            <input type="text" class="input-box" id="billAmount"/>
+        </div>
+        <div class="col-12 col-md-6 pb-3">
+            <p class="description">PERCENTAGE TIP</p>
+            <input type="text" class="input-box" id="percentageTip"/>
+        </div>
+        <div class="col-12 col-md-6 pb-3">
+            <p class="description">TIP AMOUNT</p>
+            <input type="text" class="input-box" id="tipAmount"/>
+        </div>
+        <div class="col-12 col-md-6 pb-3">
+            <p class="description">TOTAL</p>
+            <input type="text" class="input-box" id="totalAmount"/>
+        </div>
+        <div class="col-12 text-center mt-4">
+          <button class=" btn btn-info calculate-tip-button" onclick="calculateTip()">Calculate</button>
+          <p class="error-message text-center" id="message"></p>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
