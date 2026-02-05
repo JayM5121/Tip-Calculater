@@ -108,4 +108,4 @@ This project is open-source and available under the MIT License.
 ✨ Author
 
 Developed by Jay
-Web Developer & Automobile Student
+Web Developer
